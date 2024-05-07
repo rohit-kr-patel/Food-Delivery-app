@@ -1,0 +1,21 @@
+.food-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+gap:30px;
+row-gap: 50px;
+
+}
+.food-item{
+    animation: fadeIn 2s;
+  
+}
+
+.footer-content{
+    width:100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap:80px;
+
+}
+
